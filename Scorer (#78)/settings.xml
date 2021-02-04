@@ -68,7 +68,7 @@
 </config>
 <config key="model">
 <entry key="first" type="xstring" value="bankable"/>
-<entry key="second" type="xstring" value="prediction"/>
+<entry key="second" type="xstring" value="Class [kNN]"/>
 <entry key="flowVarPrefix" type="xstring" isnull="true" value=""/>
 <entry key="sortingReversed" type="xboolean" value="false"/>
 <entry key="sortingStrategy" type="xint" value="0"/>
@@ -108,6 +108,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="dbaf2f7c-9b68-4da8-b162-fedb7dd8bed1"/>
+<entry key="file_store_id" type="xstring" value="8846edd6-c8a9-4cc7-867c-3ee8a22e2510"/>
 </config>
 </config>
