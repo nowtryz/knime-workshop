@@ -24,7 +24,7 @@
 <config key="path">
 <entry key="location_present" type="xboolean" value="true"/>
 <entry key="file_system_type" type="xstring" value="LOCAL"/>
-<entry key="path" type="xstring" value="/home/alben/workspace/Datasets/bankable_consumer_train.csv"/>
+<entry key="path" type="xstring" value="D:\Users\damie\OneDrive\Documents\Polytech Annecy\Semestre 8\DATA832 Machine learning I\bankable_consumer_train.csv"/>
 </config>
 <config key="filter_mode_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_FilterMode"/>
@@ -63,7 +63,7 @@
 <entry key="autodetect_buffer_size" type="xint" value="1048576"/>
 </config>
 <config key="table_spec_config_Internals">
-<entry key="root_path_Internals" type="xstring" value="/home/alben/workspace/Datasets/bankable_consumer_train.csv"/>
+<entry key="root_path_Internals" type="xstring" value="D:\Users\damie\OneDrive\Documents\Polytech Annecy\Semestre 8\DATA832 Machine learning I\bankable_consumer_train.csv"/>
 <config key="datatable_spec_Internals">
 <entry key="spec_name" type="xstring" value="default"/>
 <entry key="number_columns" type="xint" value="15"/>
@@ -236,7 +236,7 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_14">
-<entry key="column_name" type="xstring" value="income"/>
+<entry key="column_name" type="xstring" value="bankable"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -250,7 +250,7 @@
 </config>
 <config key="file_paths_Internals">
 <entry key="array-size" type="xint" value="1"/>
-<entry key="0" type="xstring" value="/home/alben/workspace/Datasets/bankable_consumer_train.csv"/>
+<entry key="0" type="xstring" value="D:\Users\damie\OneDrive\Documents\Polytech Annecy\Semestre 8\DATA832 Machine learning I\bankable_consumer_train.csv"/>
 </config>
 <config key="individual_specs_Internals">
 <config key="individual_spec_0">
@@ -269,7 +269,7 @@
 <entry key="11" type="xstring" value="capital.loss"/>
 <entry key="12" type="xstring" value="hours.per.week"/>
 <entry key="13" type="xstring" value="native.country"/>
-<entry key="14" type="xstring" value="income"/>
+<entry key="14" type="xstring" value="bankable"/>
 </config>
 </config>
 <config key="production_paths_Internals">
@@ -441,7 +441,7 @@
 <entry key="11" type="xstring" value="capital.loss"/>
 <entry key="12" type="xstring" value="hours.per.week"/>
 <entry key="13" type="xstring" value="native.country"/>
-<entry key="14" type="xstring" value="income"/>
+<entry key="14" type="xstring" value="bankable"/>
 </config>
 <config key="positional_mapping_Internals">
 <entry key="array-size" type="xint" value="15"/>
@@ -511,10 +511,10 @@
 <config key="nodeAnnotation">
 <entry key="text" type="xstring" value="You can load here%%00010your train dataset%%00010bankable_consumer_train.csv%%00010"/>
 <entry key="bgcolor" type="xint" value="16777215"/>
-<entry key="x-coordinate" type="xint" value="-17"/>
+<entry key="x-coordinate" type="xint" value="-23"/>
 <entry key="y-coordinate" type="xint" value="159"/>
-<entry key="width" type="xint" value="195"/>
-<entry key="height" type="xint" value="72"/>
+<entry key="width" type="xint" value="166"/>
+<entry key="height" type="xint" value="60"/>
 <entry key="alignment" type="xstring" value="CENTER"/>
 <entry key="borderSize" type="xint" value="0"/>
 <entry key="borderColor" type="xint" value="16777215"/>
@@ -523,7 +523,7 @@
 <config key="styles"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="CONFIGURED"/>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <entry key="factory" type="xstring" value="org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory"/>
 <entry key="node-name" type="xstring" value="CSV Reader"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -540,16 +540,19 @@
 <config key="Data Table"/>
 </config>
 <entry key="name" type="xstring" value="CSV Reader"/>
-<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 19536, Cols: 15"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="ade48328-a118-4f7b-bf9b-81ca82ab2b31"/>
 </config>
 </config>
