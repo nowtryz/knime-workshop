@@ -36,31 +36,31 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="Accuracy"/>
 <entry key="class" type="xstring" value="DOUBLE"/>
-<entry key="value" type="xdouble" value="0.7868202175303902"/>
+<entry key="value" type="xdouble" value="0.8566858605246321"/>
 </config>
 <config key="Variable_6">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="Error"/>
 <entry key="class" type="xstring" value="DOUBLE"/>
-<entry key="value" type="xdouble" value="0.21317978246960972"/>
+<entry key="value" type="xdouble" value="0.1433141394753679"/>
 </config>
 <config key="Variable_7">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="#Correct"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="6149"/>
+<entry key="value" type="xint" value="6695"/>
 </config>
 <config key="Variable_8">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="#False"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="1666"/>
+<entry key="value" type="xint" value="1120"/>
 </config>
 <config key="Variable_9">
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="Cohen's kappa"/>
 <entry key="class" type="xstring" value="DOUBLE"/>
-<entry key="value" type="xdouble" value="0.2533755196349348"/>
+<entry key="value" type="xdouble" value="0.5651445533669701"/>
 </config>
 </config>
 <config key="internal_node_subsettings">
@@ -68,7 +68,7 @@
 </config>
 <config key="model">
 <entry key="first" type="xstring" value="bankable"/>
-<entry key="second" type="xstring" value="Class [kNN]"/>
+<entry key="second" type="xstring" value="Prediction (bankable)"/>
 <entry key="flowVarPrefix" type="xstring" isnull="true" value=""/>
 <entry key="sortingReversed" type="xboolean" value="false"/>
 <entry key="sortingStrategy" type="xint" value="0"/>
@@ -108,6 +108,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="8846edd6-c8a9-4cc7-867c-3ee8a22e2510"/>
+<entry key="file_store_id" type="xstring" value="0a408275-3a14-47f2-87a2-20f8f690d695"/>
 </config>
 </config>
